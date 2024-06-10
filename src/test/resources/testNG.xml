@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Swapi_Task2">
+    <listeners>
+         <listener class-name="listener.TestNGListener"/>
+    </listeners>
+
+    <!-- Define test cases -->
+    <test name="TestName">
+        <!-- Define test classes -->
+        <classes>
+            <class name="useCase1.SwapiApiTest"/>
+             <class name="useCase2.SwapiContractTest"/>
+        </classes>
+    </test>
+</suite>
